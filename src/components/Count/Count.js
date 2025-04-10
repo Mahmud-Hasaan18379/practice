@@ -12,8 +12,8 @@ const Count = () => {
   return (
     <div>
       <h1>count : { count}</h1>
-      <button onClick={()=>setCount((count)=>count +1)}>+</button>
-      <button onClick={()=>setCount((count)=>count - 1)}>-</button>
+      <button style={{color:"red"}} onClick={()=>setCount((count)=>count +1)}>+</button>
+      <button style={{color:"red"}} onClick={()=>setCount((count)=>count - 1)}>-</button>
     </div>
   )
 }
